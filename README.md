@@ -1,1 +1,1 @@
-Zajęcia z obiektu XHMHttpRequest 08122021
+Zajęcia z obiektu XMLHttpRequest 08122021
