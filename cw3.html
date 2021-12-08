@@ -12,7 +12,14 @@
         <input type="submit" value="SPRAWDŹ">
         <div id="stan"></div>
         <script>
-            
+            document.getElementById("form1").addEventListener("submit",sprawdzstan);
+
+            function sprawdzstan(event){
+                event.preventDefault();
+                var nazwa = document.getElementById("mojstan").value;
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET','sprawdz.php?stan='+nazwa,true);
+            }
         </script>
     </form>
 </body>
