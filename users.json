@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "name": "Szymon Brachaczek",
+        "email": "szymon.brachaczek.31@gmail.com"
+    },
+    {
+        "id":2,
+        "name": "Kacper Sakrajecki",
+        "email": "sakraj.dzban.7@gmail.com"
+    },
+    {
+        "id":3,
+        "name": "Krzysiu Wandzel",
+        "email": "krzys.wandzel@gmail.com"
+    },
+    {
+        "id":4,
+        "name": "Paweł Kuczmik",
+        "email": "pablo.escobar.69@gmail.com"
+    }
+]
