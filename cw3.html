@@ -21,6 +21,7 @@
                 xhr.open('GET','sprawdz.php?stan='+nazwa,true);
                 xhr.onload = function(){
                     console.log(this.responseText);
+                    document.getElementById("stan").innerHTML = this.responseText;
                 }
                 xhr.send();
             }
